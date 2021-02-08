@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteRule ^index	index.php?act=index&%{QUERY_STRING}
+RewriteRule ^addcar	index.php?act=addcar&%{QUERY_STRING}
+RewriteRule ^details	index.php?act=details&%{QUERY_STRING}
+RewriteRule ^toaddcar	index.php?act=toaddcar&%{QUERY_STRING}
+RewriteRule ^register	index.php?act=register&%{QUERY_STRING}
+RewriteRule ^toregister	index.php?act=toregister&%{QUERY_STRING}
+RewriteRule ^login	index.php?act=login&%{QUERY_STRING}
+RewriteRule ^auth	index.php?act=auth&%{QUERY_STRING}
+RewriteRule ^profile	index.php?act=profile&%{QUERY_STRING}
+RewriteRule ^logout	index.php?act=logout&%{QUERY_STRING}
+RewriteRule ^home	index.php?act=home&%{QUERY_STRING}
